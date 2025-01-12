@@ -1,0 +1,29 @@
+{
+  "name": "ai-writing-assistant",
+  "version": "1.0.0",
+  "description": "AI-powered writing assistant for grammar, style, and tone analysis",
+  "main": "src/WritingAssistant.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [
+    "ai",
+    "writing",
+    "grammar",
+    "nlp",
+    "analysis"
+  ],
+  "author": "polykaza82",
+  "license": "MIT",
+  "dependencies": {
+    "compromise": "^14.8.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "natural": "^6.2.0",
+    "sentiment": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
